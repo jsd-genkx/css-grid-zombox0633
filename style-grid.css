@@ -1,10 +1,21 @@
-/* exercise 1 */
+/* exercise 1 & exercise 2  */
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
 
-/* exercise 2 */
 
 /* exercise 3 */
-
+.item-1{
+  grid-column: span 2;
+}
 /* exercise 4 */
+.item-4{
+  grid-column-start: 2;
+  grid-row-start: 3;
+}
 
 /* exercise 5 */
 
